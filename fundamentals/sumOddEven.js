@@ -31,3 +31,4 @@ function oddOrEven(array) {
 }
 
 console.log(oddOrEven([2, 1, 2]));
+console.log(oddOrEven([2, 3, 3]));
