@@ -26,3 +26,10 @@ function sumOfMinimums(arr) {
   }
   return total;
 }
+console.log(
+  sumOfMinimums([
+    [1, 2, 3, 4],
+    [12, 23, 32, 1],
+    [392, 23, 12],
+  ])
+);
