@@ -8,7 +8,7 @@ they are given.
 */
 
 function noOdds(values) {
-    return values.filter(function) {
-        return n % 2 === 0;
-    }
+  return values.filter(function (n) {
+    return n % 2 === 0;
+  });
 }
