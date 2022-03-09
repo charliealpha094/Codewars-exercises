@@ -6,4 +6,10 @@ Create a combat function that takes the player's current health and the amount
  be less than 0.
 */
 
-const combat = function () {};
+const combat = function () {
+  if (health - damage < 0) {
+    return 0;
+  } else {
+    return health - damage;
+  }
+};
